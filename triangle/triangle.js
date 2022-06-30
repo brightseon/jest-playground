@@ -18,4 +18,8 @@ function Triangle(side1, side2, side3) {
             : 'not equilateral';
 }
 
+Triangle.prototype.checkType = function () {
+    return 'not a triangle';
+};
+
 export default Triangle;
